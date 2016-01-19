@@ -1,0 +1,18 @@
+main: com.neptuniumstudios.MazePVP.Main
+name: MazePVP
+version: 0.1
+author: Toxoid_49b / MacintoshPlus
+description: Game Controler For MazePVP! 
+commands:
+  showactions:
+    description: Show the actions menu.
+    usage: /showactions
+  playersingame:
+    description: Prints the players currently in a game to the console.
+    usage: /playersingame
+  givecoins:
+    description: Gives coins of ammount to selected player from your account.
+    usage: /givecoins [player name] [number of coins]
+  startroundnow:
+    description: Starts a round early. Must have at least 2 players.
+    usage: /startroundnow
